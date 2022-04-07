@@ -199,4 +199,4 @@ class VisionTransformer(nn.Module):
         cls_token_final = x[:, 0] # just the CLS token for class embedding
         x = self.head(cls_token_final)
 
-        return x
+        return 
